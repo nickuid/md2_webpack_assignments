@@ -1,6 +1,6 @@
 # MD2 JavaScript training
 
-Dit is een webpack project waar we al met Webpack werken en waar we ook met sass kunnen starten.
+Dit is een webpack project waar we al met Webpack werken en waar we ook met sass aan de slag kunnen.
 
 * fork mijn project op GitHub. Rechtsbovenin zie je hier op github een knop 'fork'. Klik daarop. Je maakt zo een kopie van mijn repository naar je eigen account.
 
