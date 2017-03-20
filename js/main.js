@@ -89,52 +89,76 @@
  * Maak een variabele met de naam lastName, sla je achternaam hierin op
  * Maak een variabele fullName, en zorg ervoor dat de variabelen 'firstName' en
  * 'lastName' hier samen in worden opgeslagen
- */
 
+ var firstName = "Nick";
+ var lastName = "Deenik";
+ var fullName = `${firstName} ${lastName}`
+  */
 /**
  * Opdracht 12: Random cijfers
- * console.log() een willekeurige cijfer tussen 0 en 5
- * console.log() een willekeurige cijfer tussen 1 en 10
- * console.log() een willekeurige cijfer tussen 30 en 40
- * console.log() een willekeurige cijfer tussen -100 en 100
- */
+ *  een willekeurige cijfer tussen 0 en 5
+ *  een willekeurige cijfer tussen 1 en 10
+ *  een willekeurige cijfer tussen 30 en 40
+ *  een willekeurige cijfer tussen -100 en 100
 
+console.log(Math.floor(Math.random() * 5));
+console.log(Math.floor(Math.random() * 9) + 1  );
+console.log(Math.floor(Math.random() * 10) + 30  );
+console.log(Math.floor(Math.random() * 200) - 100  );
+ */
 /**
  * Opdracht 13: Primitive, Array of object?
  * Geef in de console.log antwoord op de vraag door een boolean op true of
  * false te zetten
- */
+ 
 console.log('De naam van een gebruiker sla ik op in een:',
-            { array : false, object : false, primitive : false });
+            { array : false, object : false, primitive : true });
 
 console.log('De naam, leeftijd en lengte van een gebruiker sla ik op in een:',
-            { array : false, object : false, primitive : false });
+            { array : true, object : false, primitive : false });
 
 console.log('Alle facturen van een zakelijke klant sla ik op in een:',
-            { array : false, object : false, primitive : false });
+            { array : false, object : true, primitive : false });
 
 console.log('Een factuur sla ik op in een:',
-            { array : false, object : false, primitive : false });
+            { array : false, object : false, primitive : true });
 
 console.log('Als ik vanuit JavaScript een menu maak met knoppen, dan sla ik de knoppen op in een:',
-            { array : false, object : false, primitive : false });
-
+            { array : true, object : false, primitive : false });
+*/
 /**
  * Opdracht 14: Keywords
  * Maak 4 variabelen aan met de let keyword
  * Maak 4 variabelen aan met de const keyword
- */
 
+let lengte = "1.86m";
+let leeftijd = 20;
+let gewicht = 70;
+let klas = "MD2B";
+const naam = "Nick";
+const sex = "Man";
+const vingers = 10;
+const benen = 2;
+ */
 /**
  * Opdracht 15: Keywords
  * Geef antwoord op de volgende vragen:
- */
-console.log('Wanneer gebruik je de let keyword?', 'jouw antwoord');
-console.log('Wanneer gebruik je de const keyword', 'jouw antwoord');
 
+console.log('Wanneer gebruik je de let keyword?', 'wanneer je een variabel wilt gaan veranderen later');
+console.log('Wanneer gebruik je de const keyword', 'wanneer je de variabel niet meer wilt veranderen');
+ */
 /**
  * Opdracht 16: Objects en array
  * Maak een object voor jezelf (naam, leeftijd, lengte)
  * Maak in je object een array aan genaamd 'family' en vul deze array met namen uit je familie
  * (objecten en arrays kunnen in elkaar opgeslagen worden)
+
+
+ var nick = {
+ naam: 'Nick Deenik',
+ leeftijd: '20',
+ lengte: '1.86m',
+ family: ['René','Claudia','Davey','Daan','Puck']
+};
+console.log(nick);
  */
